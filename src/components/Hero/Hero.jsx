@@ -136,19 +136,19 @@ function Hero() {
       >
         <img
           className="profile-img"
-          src="/profile.png"
+          src="{`${import.meta.env.BASE_URL}profile.png"
           alt="Nur Iman Batrisya"
         />
 
         <img
           className="sparkle"
-          src="/sparkle.png"
+          src="{`${import.meta.env.BASE_URL}sparkle.png"
           alt="sparkle decoration"
         />
 
         <img
           className="sparkle-bottom"
-          src="/sparkle.png"
+          src="{`${import.meta.env.BASE_URL}sparkle.png"
           alt="sparkle decoration"
         />
       </motion.div>
