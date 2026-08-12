@@ -97,10 +97,7 @@
     font-weight: 500;
 
     transition: .3s ease;
-}
-
-.skill-tags span:hover {
-    transform: translateY(-4px);
+    pointer-events: none;
 }
 
 .skill-tags svg {
@@ -148,10 +145,7 @@
     font-weight: 500;
 
     transition: .3s ease;
-}
-
-.simple-tags span:hover {
-    transform: translateY(-4px);
+    pointer-events: none;
 }
 
 .simple-tags svg {
@@ -188,10 +182,7 @@
     font-weight: 600;
 
     transition: .3s ease;
-}
-
-.soft-tags span:hover {
-    transform: translateY(-4px);
+    pointer-events: none;
 }
 
 /* ================= TABLET ================= */
