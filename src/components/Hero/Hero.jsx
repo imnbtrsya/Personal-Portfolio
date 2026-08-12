@@ -1,5 +1,9 @@
 import "./Hero.css";
 
+import profileImage from "../../assets/profile.png";
+import sparkleImage from "../../assets/sparkle.png";
+import resume from "../../assets/NUR IMAN BATRISYA.pdf";
+
 import { HiArrowDownTray } from "react-icons/hi2";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
@@ -110,7 +114,7 @@ function Hero() {
           }}
         >
           <a
-            href="/NUR%20IMAN%20BATRISYA.pdf"
+            href={resume}
             download="NUR IMAN BATRISYA.pdf"
             className="resume-btn"
           >
@@ -136,19 +140,19 @@ function Hero() {
       >
         <img
           className="profile-img"
-          src={`${import.meta.env.BASE_URL}profile.png`}
+          src={profileImage}
           alt="Nur Iman Batrisya"
         />
 
         <img
           className="sparkle"
-          src={`${import.meta.env.BASE_URL}sparkle.png`}
+          src={sparkleImage}
           alt="sparkle decoration"
         />
 
         <img
           className="sparkle-bottom"
-          src={`${import.meta.env.BASE_URL}sparkle.png`}
+          src={sparkleImage}
           alt="sparkle decoration"
         />
       </motion.div>
