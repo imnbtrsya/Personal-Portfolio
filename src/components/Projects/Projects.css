@@ -1,0 +1,425 @@
+/* ================= PROJECTS ================= */
+
+.projects {
+    background: #EEE9D8;
+    padding: 50px 5% 70px;
+    scroll-margin-top: 80px;
+    overflow: hidden;
+}
+
+/* ================= TITLE ================= */
+
+.projects-title {
+    text-align: center;
+    font-size: clamp(42px, 4vw, 50px);
+    color: #513229;
+    font-family: "Italianno", cursive;
+    margin: 0 0 35px;
+    font-style: italic;
+}
+
+/* ================= SWIPER CONTAINER ================= */
+
+.projects .swiper-wrapper {
+    align-items: stretch;
+}
+
+.swiper-wrapper-container {
+    position: relative;
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+}
+
+/* ================= SWIPER ================= */
+
+.projects .swiper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 5px 55px !important;
+    overflow: hidden;
+}
+
+.projects .swiper-slide {
+    height: auto;
+    display: flex;
+}
+
+/* ================= PROJECT CARD ================= */
+
+.project-card {
+    width: 100%;
+    height: 100%;
+    background: #513229;
+    border-radius: 28px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    transition: 0.35s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+/* ================= PROJECT IMAGE ================= */
+
+.project-card img {
+    width: calc(100% - 24px);
+    margin: 12px;
+    border-radius: 18px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+/* ================= PROJECT CONTENT ================= */
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 25px;
+}
+
+.project-content h3 {
+    color: #fce6b7;
+    font-family: "Cardo", serif;
+    font-size: clamp(21px, 2vw, 26px);
+    line-height: 1.3;
+    margin: 0 0 12px;
+}
+
+
+/* ================= DESCRIPTION ================= */
+
+.project-description {
+    margin-bottom: 20px;
+}
+
+.project-description p {
+    color: #f4f1e2;
+    font-family: "Cardo", serif;
+    font-size: clamp(13px, 1.2vw, 15px);
+    line-height: 1.7;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: calc(1.7em * 3);
+}
+
+.project-description p.expanded {
+    display: block;
+    min-height: 0;
+}
+
+/* ================= READ MORE ================= */
+
+.read-more {
+    background: none;
+    border: none;
+    padding: 5px 0 0;
+    color: #fce6b7;
+    font-family: "Cardo", serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.read-more:hover {
+    opacity: 0.75;
+}
+
+/* ================= PROJECT TAGS ================= */
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px;
+    min-height: 82px;
+    margin-bottom: 25px;
+}
+
+.project-tags span {
+    background: #f4f1e2;
+    color: #513229;
+    padding: 8px 15px;
+    border-radius: 999px;
+    font-size: clamp(12px, 1.1vw, 14px);
+    font-weight: 600;
+}
+
+/* ================= PROJECT BUTTONS ================= */
+
+.project-buttons {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.project-buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    padding: 12px 10px;
+    min-height: 44px;
+    border-radius: 12px;
+    font-size: clamp(13px, 1.2vw, 15px);
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+}
+
+.project-buttons a svg {
+    font-size: 17px;
+}
+
+/* ================= GITHUB ================= */
+
+.github-btn {
+    background: #d8ebf9;
+    color: #513229;
+}
+
+.github-btn:hover {
+    background: #c5e4f6;
+    transform: translateY(-3px);
+}
+
+/* ================= DEMO ================= */
+
+.demo-btn {
+    background: #fce6b7;
+    color: #513229;
+}
+
+.demo-btn:hover {
+    background: #f6d996;
+    transform: translateY(-3px);
+}
+
+/* ================= RESEARCH PAPER ================= */
+
+.paper-btn {
+    grid-column: 1 / -1;
+    width: 60%;
+    justify-self: center;
+    background: #d6ccb2;
+    color: #513229;
+}
+
+.paper-btn:hover {
+    background: #c8bb9e;
+    transform: translateY(-3px);
+}
+
+/* ================= SWIPER PAGINATION ================= */
+
+.projects .swiper-pagination {
+    bottom: 5px !important;
+}
+
+.projects .swiper-pagination-bullet {
+    background: #513229;
+    opacity: 0.3;
+}
+
+.projects .swiper-pagination-bullet-active {
+    background: #513229;
+    opacity: 1;
+}
+
+/* ================= NAVIGATION ARROWS ================= */
+
+.project-prev,
+.project-next {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background: #513229;
+    color: #f4f1e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: 0.3s ease;
+}
+
+.project-prev {
+    left: -30px;
+}
+
+.project-next {
+    right: -30px;
+}
+
+.project-prev:hover,
+.project-next:hover {
+    transform: translateY(-50%) scale(1.1);
+    background: #6b4638;
+}
+
+.project-prev svg,
+.project-next svg {
+    font-size: 22px;
+}
+
+/* ================= HIDE ARROW ================= */
+
+.hide-arrow {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 900px) {
+
+    .projects {
+        padding: 50px 6% 65px;
+    }
+
+    .projects-title {
+        font-size: 46px;
+        margin-bottom: 30px;
+    }
+
+    .projects .swiper {
+        padding: 10px 5px 45px !important;
+    }
+
+    .project-content {
+        padding: 22px;
+    }
+
+    .project-content h3 {
+        font-size: 22px;
+    }
+
+    .project-description p {
+        font-size: 14px;
+        line-height: 1.6;
+        min-height: calc(1.6em * 3);
+    }
+
+    .project-tags {
+        min-height: 76px;
+    }
+
+    .project-tags span {
+        font-size: 13px;
+        padding: 7px 13px;
+    }
+
+    .project-buttons a {
+        font-size: 14px;
+    }
+
+    .project-prev,
+    .project-next {
+        display: none;
+    }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 600px) {
+
+    .projects {
+        padding: 45px 20px 60px;
+    }
+
+    .projects-title {
+        font-size: 42px;
+        margin-bottom: 25px;
+    }
+
+    .projects .swiper {
+        padding: 5px 3px 45px !important;
+    }
+
+    /* ================= CARD ================= */
+
+    .project-card {
+        border-radius: 22px;
+    }
+
+    /* ================= IMAGE ================= */
+
+    .project-card img {
+        width: calc(100% - 20px);
+        margin: 10px;
+        border-radius: 16px;
+    }
+
+    /* ================= CONTENT ================= */
+
+    .project-content {
+        padding: 20px;
+    }
+
+    .project-content h3 {
+        font-size: 20px;
+    }
+
+    .project-description p {
+        font-size: 13px;
+        line-height: 1.6;
+        min-height: calc(1.6em * 3);
+    }
+
+    /* ================= TAGS ================= */
+
+    .project-tags {
+        gap: 8px;
+        min-height: 70px;
+        margin-bottom: 20px;
+    }
+
+    .project-tags span {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    /* ================= BUTTONS ================= */
+
+    .project-buttons {
+        gap: 7px;
+    }
+
+    .project-buttons a {
+        padding: 10px 6px;
+        font-size: 11px;
+        gap: 5px;
+    }
+
+    .project-buttons a svg {
+        font-size: 15px;
+    }
+
+    .paper-btn {
+        width: 70%;
+    }
+
+    /* ================= REMOVE ARROWS ================= */
+
+    .project-prev,
+    .project-next {
+        display: none;
+    }
+}

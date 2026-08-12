@@ -1,0 +1,330 @@
+/* ================= CONTACT ================= */
+
+.contact {
+    background: #513229;
+
+    padding: 50px 5% 70px;
+
+    scroll-margin-top: 80px;
+}
+
+/* ================= TITLE ================= */
+
+.contact-title {
+    text-align: center;
+
+    font-size: clamp(42px, 4vw, 50px);
+
+    font-family: "Italianno", cursive;
+
+    margin: 0 0 35px;
+
+    font-style: italic;
+
+    color: #fce6b7;
+}
+
+/* ================= CONTAINER ================= */
+
+.contact-container {
+    width: 100%;
+
+    max-width: 600px;
+
+    margin: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+/* ================= CONTACT CARD ================= */
+
+.contact-card {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    width: 100%;
+
+    padding: 25px 30px;
+
+    background: #f4f1e2;
+
+    border-radius: 25px;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .12);
+
+    transition: .3s ease;
+
+    min-width: 0;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+
+    background: #D6CCB2;
+}
+
+/* ================= CONTACT LINK ================= */
+
+.contact-link {
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    flex: 1;
+
+    min-width: 0;
+
+    text-decoration: none;
+
+    color: #513229;
+}
+
+/* ================= ICON ================= */
+
+.contact-icon {
+    font-size: 40px;
+
+    color: #513229;
+
+    flex-shrink: 0;
+}
+
+/* ================= TEXT ================= */
+
+.contact-card h3 {
+    margin: 0 0 8px;
+
+    font-family: "Cardo", serif;
+
+    font-size: clamp(20px, 2vw, 24px);
+
+    line-height: 1.3;
+}
+
+.contact-card p {
+    margin: 0;
+
+    color: #9a6b53;
+
+    font-family: "Cardo", serif;
+
+    font-size: clamp(13px, 1.3vw, 15px);
+
+    line-height: 1.4;
+
+    overflow-wrap: anywhere;
+}
+
+/* ================= COPY BUTTON ================= */
+
+.copy-btn {
+    background: none;
+
+    border: none;
+
+    cursor: pointer;
+
+    color: #513229;
+
+    font-size: 24px;
+
+    padding: 8px;
+
+    transition: .3s ease;
+
+    flex-shrink: 0;
+}
+
+.copy-btn:hover {
+    color: #9a6b53;
+
+    transform: scale(1.15);
+}
+
+.copy-btn svg {
+    display: block;
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 900px) {
+
+    .contact {
+        padding: 50px 6% 65px;
+    }
+
+    .contact-title {
+        font-size: 46px;
+
+        margin-bottom: 30px;
+    }
+
+    .contact-container {
+        max-width: 600px;
+
+        gap: 22px;
+    }
+
+    .contact-card {
+        padding: 22px 25px;
+
+        border-radius: 23px;
+    }
+
+    .contact-link {
+        gap: 20px;
+    }
+
+    .contact-icon {
+        font-size: 36px;
+    }
+
+    .contact-card h3 {
+        font-size: 22px;
+    }
+
+    .contact-card p {
+        font-size: 14px;
+    }
+
+    .copy-btn {
+        font-size: 22px;
+
+        padding: 7px;
+    }
+}
+
+/* ================= SMALL TABLET ================= */
+
+@media (max-width: 750px) {
+
+    .contact-container {
+        max-width: 550px;
+    }
+
+    .contact-card {
+        padding: 20px 22px;
+    }
+
+    .contact-link {
+        gap: 18px;
+    }
+
+    .contact-icon {
+        font-size: 34px;
+    }
+
+    .contact-card h3 {
+        font-size: 21px;
+    }
+
+    .contact-card p {
+        font-size: 13px;
+    }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 600px) {
+
+    .contact {
+        padding: 45px 20px 60px;
+    }
+
+    .contact-title {
+        font-size: 42px;
+
+        margin-bottom: 25px;
+    }
+
+    .contact-container {
+        gap: 18px;
+
+        width: 100%;
+    }
+
+    .contact-card {
+        padding: 18px 16px;
+
+        border-radius: 20px;
+    }
+
+    .contact-card:hover {
+        transform: translateY(-4px);
+    }
+
+    .contact-link {
+        gap: 15px;
+
+        min-width: 0;
+    }
+
+    .contact-icon {
+        font-size: 30px;
+    }
+
+    .contact-card h3 {
+        font-size: 19px;
+
+        margin-bottom: 5px;
+    }
+
+    .contact-card p {
+        font-size: 12px;
+
+        line-height: 1.5;
+
+        overflow-wrap: anywhere;
+    }
+
+    .copy-btn {
+        font-size: 19px;
+
+        padding: 6px;
+    }
+}
+
+/* ================= VERY SMALL MOBILE ================= */
+
+@media (max-width: 380px) {
+
+    .contact {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contact-card {
+        padding: 16px 14px;
+    }
+
+    .contact-link {
+        gap: 12px;
+    }
+
+    .contact-icon {
+        font-size: 27px;
+    }
+
+    .contact-card h3 {
+        font-size: 17px;
+    }
+
+    .contact-card p {
+        font-size: 11px;
+    }
+
+    .copy-btn {
+        font-size: 17px;
+
+        padding: 5px;
+    }
+}
