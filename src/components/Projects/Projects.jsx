@@ -35,9 +35,9 @@ const [expandedProject, setExpandedProject] = useState(null);
         "CSS",
       ],
 
-      github: "https://github.com/your-github",
+      github: "https://github.com/imnbtrsya/portfolio",
 
-      demo: "",
+      demo: "https://imnbtrsya.github.io/portfolio/",
 
       image: portfolioImage,
     },
