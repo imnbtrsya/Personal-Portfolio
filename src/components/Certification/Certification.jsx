@@ -1,5 +1,9 @@
 import "./Certification.css";
 
+import awsImage from "../../assets/AWS-certificate.jpg";
+import ccnaImage from "../../assets/CCNA-certificate.png";
+import efsetImage from "../../assets/EFSET-certificate.jpg";
+
 import { useState } from "react";
 import { HiOutlineEye } from "react-icons/hi2";
 
@@ -17,17 +21,17 @@ function Certification() {
     {
       title: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services (AWS)",
-      image: "/AWS-certificate.jpg",
+      image: {awsImage},
     },
     {
       title: "CCNAv7: Introduction to Networks",
       issuer: "Cisco Networking Academy",
-      image: "/CCNA-certificate.png",
+      image: {ccnaImage},
     },
     {
       title: "EF SET English Certificate",
       issuer: "EF SET",
-      image: "/EFSET-certificate.jpg",
+      image: {efsetImage},
     },
   ];
 

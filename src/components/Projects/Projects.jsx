@@ -1,5 +1,11 @@
 import "./Projects.css";
 
+import portfolioImage from "../../assets/portfolio-logo.png";
+import pawparentImage from "../../assets/PawParent-logo.png";
+import mpsImage from "../../assets/mpscholar-logo.png";
+import strokeImage from "../../assets/stroke-prediction.png";
+import stroke from "../../assets/Early-Stroke-Prediction.pdf";
+
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineGlobeAlt, HiOutlineDocumentText, HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi2";
 
@@ -33,7 +39,7 @@ const [expandedProject, setExpandedProject] = useState(null);
 
       demo: "",
 
-      image: "/portfolio-logo.png",
+      image: {portfolioImage},
     },
 
     {
@@ -51,7 +57,7 @@ const [expandedProject, setExpandedProject] = useState(null);
 
       demo: "https://imnbtrsya.github.io/pawparent/",
 
-      image: "/PawParent-logo.png",
+      image: {pawparentImage},
     },
 
     {
@@ -71,7 +77,7 @@ const [expandedProject, setExpandedProject] = useState(null);
 
       demo: "https://mps-xbtg.onrender.com/login",
 
-      image: "/mpscholar-logo.png",
+      image: {mpsImage},
     },
 
     {
@@ -91,9 +97,9 @@ const [expandedProject, setExpandedProject] = useState(null);
 
         demo: "https://early-stroke-prediction-4dz2.onrender.com/",
 
-        paper: "/Early-Stroke-Prediction.pdf",
+        paper: {stroke},
 
-        image: "/stroke-prediction.png",
+        image: {strokeImage},
     },
 
   ];

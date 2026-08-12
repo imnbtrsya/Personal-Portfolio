@@ -1,5 +1,7 @@
 import "./SplashScreen.css";
 
+import sparkleImage from "../../assets/sparkle.png";
+
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
@@ -84,7 +86,7 @@ function SplashScreen({ onFinish }) {
         {/* ================= TOP SPARKLE ================= */}
 
         <motion.img
-          src="/sparkle.png"
+          src={sparkleImage}
           alt="sparkle"
           className="splash-sparkle-top"
           initial={{
@@ -106,7 +108,7 @@ function SplashScreen({ onFinish }) {
         {/* ================= LEFT SPARKLE ================= */}
 
         <motion.img
-          src="/sparkle.png"
+          src={sparkleImage}
           alt="sparkle"
           className="splash-sparkle-left"
           initial={{
