@@ -39,7 +39,7 @@ const [expandedProject, setExpandedProject] = useState(null);
 
       demo: "",
 
-      image: {portfolioImage},
+      image: portfolioImage,
     },
 
     {
@@ -57,7 +57,7 @@ const [expandedProject, setExpandedProject] = useState(null);
 
       demo: "https://imnbtrsya.github.io/pawparent/",
 
-      image: {pawparentImage},
+      image: pawparentImage,
     },
 
     {
@@ -77,7 +77,7 @@ const [expandedProject, setExpandedProject] = useState(null);
 
       demo: "https://mps-xbtg.onrender.com/login",
 
-      image: {mpsImage},
+      image: mpsImage,
     },
 
     {
@@ -97,9 +97,9 @@ const [expandedProject, setExpandedProject] = useState(null);
 
         demo: "https://early-stroke-prediction-4dz2.onrender.com/",
 
-        paper: {stroke},
+        paper: stroke,
 
-        image: {strokeImage},
+        image: strokeImage,
     },
 
   ];

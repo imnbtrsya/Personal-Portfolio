@@ -21,17 +21,17 @@ function Certification() {
     {
       title: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services (AWS)",
-      image: {awsImage},
+      image: awsImage,
     },
     {
       title: "CCNAv7: Introduction to Networks",
       issuer: "Cisco Networking Academy",
-      image: {ccnaImage},
+      image: ccnaImage,
     },
     {
       title: "EF SET English Certificate",
       issuer: "EF SET",
-      image: {efsetImage},
+      image: efsetImage,
     },
   ];
 
