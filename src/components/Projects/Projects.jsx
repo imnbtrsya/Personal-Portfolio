@@ -61,6 +61,26 @@ const [expandedProject, setExpandedProject] = useState(null);
     },
 
     {
+      title: "MPScholar System",
+      description:
+        "A collaborative postgraduate research management system developed for managing researcher profiles, research areas, and publications. Contributed to the Manage Expert Domain module, implementing CRUD functionality and keyword-based search.",
+
+      technologies: [
+        "Laravel",
+        "PHP",
+        "CSS",
+        "JavaScript",
+        "PHPMyAdmin"
+      ],
+
+      github: "https://github.com/imnbtrsya/mps",
+
+      demo: "https://mps-xbtg.onrender.com/login",
+
+      image: mpsImage,
+    },
+
+    {
         title: "Early Stroke Prediction",
 
         description:
