@@ -1,7 +1,7 @@
 /* ================= CONTACT ================= */
 
 .contact {
-    background: #513229;
+    background: #533229;
 
     padding: 50px 5% 70px;
 
@@ -85,7 +85,7 @@
 
     text-decoration: none;
 
-    color: #513229;
+    color: #533229;
 }
 
 /* ================= ICON ================= */
@@ -93,7 +93,7 @@
 .contact-icon {
     font-size: 40px;
 
-    color: #513229;
+    color: #533229;
 
     flex-shrink: 0;
 }
@@ -133,7 +133,7 @@
 
     cursor: pointer;
 
-    color: #513229;
+    color: #533229;
 
     font-size: 24px;
 

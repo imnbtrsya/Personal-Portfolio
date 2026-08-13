@@ -13,7 +13,7 @@
 
     font-size: clamp(42px, 4vw, 50px);
 
-    color: #513229;
+    color: #533229;
 
     font-family: "Italianno", cursive;
 
@@ -46,7 +46,7 @@
 .certificate-card {
     width: 100%;
 
-    background: #513229;
+    background: #533229;
 
     border-radius: 28px;
 
@@ -144,7 +144,7 @@
 
     background: #f4f1e2;
 
-    color: #513229;
+    color: #533229;
 
     padding: 10px 22px;
 
@@ -164,7 +164,7 @@
 .view-btn:hover {
     background: #d6ccb2;
 
-    color: #513229;
+    color: #533229;
 
     transform: translateY(-3px);
 }
@@ -180,13 +180,13 @@
 }
 
 .certificate-swiper .swiper-pagination-bullet {
-    background: #513229;
+    background: #533229;
 
     opacity: 0.45;
 }
 
 .certificate-swiper .swiper-pagination-bullet-active {
-    background: #513229;
+    background: #533229;
 
     opacity: 1;
 }
